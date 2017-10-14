@@ -1,0 +1,18 @@
+{
+  "name": "set-solver",
+  "version": "0.1.0",
+  "description": "Solves SET hands.",
+  "main": "lib/index",
+  "types": "lib/index",
+  "devDependencies": {
+    "@types/node": "^8.0.33",
+    "nodemon": "^1.12.1",
+    "ts-node": "^3.3.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  }
+}
